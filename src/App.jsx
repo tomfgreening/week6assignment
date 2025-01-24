@@ -5,6 +5,7 @@ import CPS from "./Components/CPS";
 import Header from "./Components/Header";
 import Upgradesshop from "./Components/Upgradesshop";
 import Cookiecount from "./Components/Cookiecount";
+import Cookietimer from "./Components/Cookietimer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Cookiecount cookieCountText="This is how many cookies you have right now, good job!" />
       <CPS CPStext="You are making X cookies per second, aren't you clever!" />
       <Upgradesshop upgradesShopText="Buy some upgrades. That is a command, not a suggestion." />
+      <Cookietimer />
     </div>
   );
 }

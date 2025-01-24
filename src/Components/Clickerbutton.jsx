@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function App() {
   const [cookieCount, setCookieCount] = useState(0);
@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <p>{cookieCount}</p>
       <button onClick={() => setCookieCount(cookieCount + 1)}>
-        Click me for cookie
+        Click me for a cookie!
       </button>
     </div>
   );
