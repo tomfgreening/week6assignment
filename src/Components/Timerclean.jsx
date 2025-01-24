@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-export function Timerclean() {
+export default function Timerclean() {
   const [cookieCount, setCookieCount] = useState(0);
 
   useEffect(() => {
@@ -12,5 +12,10 @@ export function Timerclean() {
     };
   });
 
-  return <div>Timer clean up:{cookieCount}</div>;
+  return (
+    <div>
+      cookie timer :
+      {cookieCount}
+    </div>
+  );
 }
