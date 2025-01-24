@@ -6,7 +6,16 @@ import Clickerbutton from "./Components/Clickerbutton";
 import CPS from "./Components/CPS";
 import Header from "./Components/Header";
 import Upgradesshop from "./Components/Upgradesshop";
+import Cookiecount from "./Components/Cookiecount";
 
 export default function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+      <Clickerbutton />
+      <Cookiecount />
+      <CPS />
+      <Upgradesshop />
+    </div>
+  );
 }
