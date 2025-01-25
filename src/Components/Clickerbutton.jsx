@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function App() {
+export default function Clikr() {
   const [cookieCount, setCookieCount] = useState(0);
   return (
     <div>
@@ -11,5 +11,3 @@ export default function App() {
     </div>
   );
 }
-
-// useEffect is basically saying "Every time the value of this specific variable change, run this function".

@@ -12,10 +12,5 @@ export default function Timerclean() {
     };
   });
 
-  return (
-    <div>
-      cookie timer :
-      {cookieCount}
-    </div>
-  );
+  return <div>cookie timer :{cookieCount}</div>;
 }

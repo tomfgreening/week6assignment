@@ -12,9 +12,21 @@ export default function App() {
   return (
     <div>
       <Header headerText="Coo-key Clikr" />
+
+
+
       <Clickerbutton clickerButtonText="I am BEGGING you to click me pls" />
-      <Cookiecount cookieCountText="This is how many cookies you have right now, good job!" />
-      Upgrades
+
+
+
+
+      <Cookiecount />
+
+
+
+
+
+      Upgrades Shop - Buy it NOW
       {UpgradeItems.map(function (item) {
         return (
           <Upgradesshop key={item.id} name={item.name} price={item.price} />
