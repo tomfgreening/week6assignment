@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Upgradesshop from "./Components/Upgradesshop";
 import Cookiecount from "./Components/Cookiecount";
 import Timerclean from "./Components/Timerclean";
+import { upgradeItems } from "./lib/data";
 // import Cookietimer from "./Components/Cookietimer";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Clickerbutton clickerButtonText="I am BEGGING you to click me pls" />
       <Cookiecount cookieCountText="This is how many cookies you have right now, good job!" />
       <Upgradesshop upgradesShopText="Buy some upgrades. That is a command, not a suggestion." />
+      forEach(function(item){<upgradeItems name={item.name} price={item.price} />})
       {/* <Cookietimer /> */}
       <Timerclean />
     </div>
