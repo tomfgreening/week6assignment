@@ -1,4 +1,4 @@
-export const data = [
+export const UpgradeItems = [
   {
     id: 1,
     name: "Easy-bake oven",

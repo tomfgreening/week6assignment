@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Upgradesshop from "./Components/Upgradesshop";
 import Cookiecount from "./Components/Cookiecount";
 import Timerclean from "./Components/Timerclean";
-import { data } from "./lib/data";
+import { UpgradeItems } from "./lib/data";
 // import Cookietimer from "./Components/Cookietimer";
 
 export default function App() {
@@ -14,10 +14,10 @@ export default function App() {
       <Header headerText="Coo-key Clikr" />
       <Clickerbutton clickerButtonText="I am BEGGING you to click me pls" />
       <Cookiecount cookieCountText="This is how many cookies you have right now, good job!" />
-      <Upgradesshop upgradesShopText="Buy some upgrades. That is a command, not a suggestion." />
-      {data.map(function (item) {
+      Upgrades
+      {UpgradeItems.map(function (item) {
         return (
-          <upgradeItems key={item.id} name={item.name} price={item.price} />
+          <Upgradesshop key={item.id} name={item.name} price={item.price} />
         );
       })}
       {/* <Cookietimer /> */}
