@@ -15,5 +15,5 @@ export const UpgradeItems = [
     id: 3,
     name: "EX Grandma",
     price: "200 cookies",
-  },
+  }
 ];
