@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 export default function Timerclean() {
   const [cookieCount, setCookieCount] = useState(0);
 
