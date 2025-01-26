@@ -17,10 +17,4 @@ export default function Cookiecounter() {
     };
   }, [cps]);
 
-  return (
-    <div>
-      <h1>{cookieCount + cps}</h1>
-      {cps}
-    </div>
-  );
 }
